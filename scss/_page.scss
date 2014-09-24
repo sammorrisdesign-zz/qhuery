@@ -1,3 +1,10 @@
+body,
+html {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
 body {
     &:before {
     position: absolute;
@@ -13,10 +20,4 @@ body {
     font-family: sans-serif;
     font-size: 24px;
     }
-}
-
-body,
-html {
-    height: 100%;
-    margin: 0;
 }
