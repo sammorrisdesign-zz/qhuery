@@ -1,0 +1,27 @@
+{
+  "name": "qwhuery",
+  "version": "1.0.0",
+  "description": "qwhuery =======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sammorrisdesign/qwhuery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammorrisdesign/qwhuery/issues"
+  },
+  "homepage": "https://github.com/sammorrisdesign/qwhuery",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-scss-lint": "^0.3.3"
+  }
+}
