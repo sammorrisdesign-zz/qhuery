@@ -2,7 +2,6 @@ $minimum-width: 400px;
 $minimum-height: 177px;
 
 body {
-    position: relative;
     @for $i from 1 to 360 {
         @for $p from 0 to 101 {
             @media screen and (min-width: ($i * 3px + $minimum-height)) and (min-height: ($p * 4px + $minimum-height)) {
