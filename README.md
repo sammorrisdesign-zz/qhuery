@@ -1,4 +1,4 @@
-qwhuery
+Qhuery
 =======
 
 A stupid sass experiment with colours. It generates 3600 media queries that change background colour.
