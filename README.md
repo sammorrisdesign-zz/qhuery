@@ -5,7 +5,7 @@ A stupid sass experiment with colours. It generates 3600 media queries that chan
 
 ## Demo
 
-Visit the real site (Warning, might kill your browser). Here's a gif preview just in case.
+Visit the [live site](http://qhuery.sammorr.is/) (Warning, might kill your browser). Here's a gif preview just in case.
 
 ![Preview](preview.gif)
 
