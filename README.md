@@ -1,11 +1,11 @@
 Qhuery
 =======
 
-A stupid sass experiment with colours. It generates 3600 media queries that change background colour.
+A stupid sass experiment with colours. It generates 3600 media queries that change the body's background colour. There's no real point to it, but you've gotten this far so you must be curious. You're probably looking for [`queries.scss`](scss/queries.scss) [`queries.css`](queries.css).
 
 ## Demo
 
-Visit the [live site](http://qhuery.sammorr.is/) (Warning, might kill your browser). Here's a gif preview just in case.
+Visit the [live site](http://www.qhuery.com) (Warning, might kill your browser). Here's a gif preview just in case.
 
 ![Preview](preview.gif)
 
