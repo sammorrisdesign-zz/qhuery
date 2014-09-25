@@ -42,7 +42,6 @@ body {
     margin: 0;
     font-size: 18px;
     color: white;
-    opacity: 0.8;
     -webkit-transition: opacity 0.5s ease-in;
 
     @media screen and (max-width: 850px) {
@@ -87,5 +86,9 @@ footer {
 
     a {
         color: white;
+
+        &:hover {
+            color: rgba(0,0,0,0.6);
+        }
     }
 }
