@@ -1,0 +1,17 @@
+$minimum-width: 400px;
+$minimum-height: 177px;
+
+body {
+    @for $i from 1 to 360 {
+        @for $p from 0 to 101 {
+            @media screen and (min-width: ($i * 3px + $minimum-height)) and (min-height: ($p * 4px + $minimum-height)) {
+                $color: hsl($i, percentage($p/100), 50%);
+                background-color: $color;
+
+                &::before {
+                    content: "#{$color}";
+                }
+            }
+        }
+    }
+}

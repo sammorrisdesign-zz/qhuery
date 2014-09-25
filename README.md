@@ -19,4 +19,4 @@ Visit the [live site](http://qhuery.sammorr.is/) (Warning, might kill your brows
 
 For the first time use `npm install` to get dependencies and then run `grunt` to watch the sass.
 
-**Warning** the sass takes a long time to compile (around 40 minutes). As a result the repo comes with compiled css.
+This doesn't include the actual queries generated from `queries.scss` as this can take up to 40 minutes to compile. As a result the page loads in two stylesheets `queries.css`, which comes with the repo already compiled, and `style.css`, which features any extra page styling.
