@@ -1,7 +1,7 @@
 Qhuery
 =======
 
-A stupid sass experiment with colours. It generates 3600 media queries that change the body's background colour. There's no real point to it, but you've gotten this far so you must be curious. You're probably looking for [`queries.scss`](scss/queries.scss) or [`queries.css`](queries.css).
+A stupid sass experiment with colours. It generates 36000 media queries that change the body's background colour. There's no real point to it, but you've gotten this far so you must be curious. You're probably looking for [`queries.scss`](scss/queries.scss) or [`queries.css`](queries.css).
 
 ## Demo
 
