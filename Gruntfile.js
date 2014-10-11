@@ -1,6 +1,8 @@
 /*global module:false*/
 module.exports = function(grunt) {
 
+  require('time-grunt')(grunt);
+
   // Project configuration.
   grunt.initConfig({
     // Metadata.
@@ -26,6 +28,11 @@ module.exports = function(grunt) {
         files: {
             'style.css' : 'scss/style.scss'
         }
+      },
+      queries: {
+        files: {
+            'queries.css' : 'scss/queries.scss'
+        }
       }
     },
     scsslint: {
@@ -37,7 +44,7 @@ module.exports = function(grunt) {
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-scss-lint');
 
   // Default task.
