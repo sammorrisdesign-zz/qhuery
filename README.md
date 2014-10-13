@@ -19,4 +19,4 @@ Visit the [live site](http://www.qhuery.com) (Warning, might kill your browser).
 
 For the first time use `npm install` to get dependencies and then run `grunt` to watch the sass.
 
-This doesn't include the actual queries generated from `queries.scss` as this can take up to 40 minutes to compile. As a result the page loads in two stylesheets `queries.css`, which comes with the repo already compiled, and `style.css`, which features any extra page styling.
+The queries are output into a different file as they can take a while to compile (up to 40 minutes using Ruby Sass, but much quicker using libsass). If you want to recompile the queries, run `grunt sass:queries`.
